@@ -1,3 +1,41 @@
+# The Grand Tutorial
+
+The Grand Tutorial is an x-part tutorial to construct an alpha project based on React and a serverless backend. 
+Using speedily configurable services we can spin up quick functionality from lightweight SaaS providers. This will include data visualization, personalization and search functionality.
+
+## The app
+The app we are building will be a simple rebuild of the current UniStats website. It will have a homepage, a page for each university and a search page . Users will be able to create an account on this website and save universities to a list of favorites. 
+
+## Part One: Build a React app
+Create the initial React app with a simple home page and GOV.UK styling
+
+## Part Two: Host the app on Heroku
+Host the initial React app on the web
+
+## Part Three: University pages
+Add structure to the app with university pages
+
+## Part Four: Content on S3
+Serve the university page data from json files stored in S3 using WebPortal and Lambda, configured with Serverless
+
+## Part Five: Search
+Add a search page to the React app using Algolia
+
+## Part Six: Data viz
+Add data visualizations to the React app using Highcharts
+
+## Part Seven: User accounts
+Add a user pool with authentication using Cognito deployed with Serverless
+
+## Part Eight: Personalisation
+Allow users to favorite universities using DynamoDB deployed with Serverless
+
+## Part Nine: Testing and CI/CD
+Deploy the React app using Heroku pipelines
+
+
+## React app
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

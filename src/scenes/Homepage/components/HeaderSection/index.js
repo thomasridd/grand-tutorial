@@ -1,5 +1,6 @@
 import React from 'react'
 import './styles.scss'
+import { Link } from 'react-router-dom'
 
 export default (props) => {
     return (
@@ -10,6 +11,7 @@ export default (props) => {
                         <div className="govuk-grid-column-two-thirds">
                             <h1 className="govuk-heading-xl unistats-header-text">Compare higher education courses</h1>
                             <p className="govuk-body-l unistats-header-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>                
+                            <Link to="/providers" className="govuk-button">Start</Link>
                         </div>
                     </div>
                 </main>
